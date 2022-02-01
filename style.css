@@ -1,0 +1,241 @@
+/**** RESET ********************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden
+}
+  
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+/**** VAR ******/
+:root {
+    --second-color: #C4C4C4 ;
+    --body-color: #E5E5E5 ;
+    --tittle-font: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: var(--body-color);
+}
+
+/**** DIV PREÇO *******/
+
+div.price {
+    position: absolute;
+    margin-top: 11.87rem;
+    margin-left: 6.93rem;
+    margin-bottom: 22.31rem;
+    margin-right: 60.75rem;
+}
+
+div.price h1.tittle {
+    font: 700 3.75rem var(--tittle-font);
+    margin-bottom: 1.31rem;
+}
+
+div.price p {
+    font: 600 1rem var(--tittle-font);
+    color: #9C9696;
+    margin-bottom: 1.31rem;
+}
+
+div.price h1.value {
+    font: 700 2.5rem var(--tittle-font);
+    margin-bottom: 1.87rem;
+}
+
+div.price button {
+    background-color: #FF0000;
+    width: 17.12rem;
+    height: 5.62rem;
+    font: 700 1.5rem var(--tittle-font);
+    color: #FFFFFF;
+    border: none;
+}
+
+/***********************/
+
+/**** IMAGES *************/
+
+div.images {
+    background-color: var(--second-color);
+    width: 56.25rem; /* Largura */
+    height: 57.12rem; /* Altura */
+    margin-left: 33.75rem; /* Borda Esquerda */
+    right: 0; /* Ajustando a borda vazando */
+    display: flex; /* Para as imagens ficar em cima da div */
+}
+
+div.images img.twot {
+    width: 35.31rem;
+    margin-top: 10.91rem;
+    margin-left: 9.81rem;
+    margin-right: 9.12rem;
+    margin-bottom: 14.28rem;
+}
+
+div.images img.one {
+    position: absolute;
+    width: 14.34rem;
+    margin-top: 43.16rem;
+    margin-left: 1.12rem;
+    margin-bottom: 2.53rem;
+}
+
+div.images img.two {
+    position: absolute;
+    width: 14.62rem;
+    margin-top: 42.15rem; /* alterar */
+    margin-left: 17.99rem;
+    margin-bottom: 2.53rem;
+    border-bottom: 5px solid #FF0000; /* Criando a borda na imagem selecionada */
+}
+
+div.images img.tre {
+    position: absolute;
+    width: 14.87rem;
+    margin-top: 43.16rem;
+    margin-left: 34.85rem;
+    margin-right: 1.12rem;
+    margin-bottom: 2.53rem;
+}
+
+/********/
+
+/**** NAVEGATION HEADER **********/
+
+header nav {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+}
+
+header nav a img {
+    width: 3rem;
+    margin-top: 2.43rem;
+    margin-left: 3.75rem;
+}
+
+header nav a.text {
+    font: 700 1.3rem var(--tittle-font);
+    color: black;
+    margin-top: 2.42rem;
+    margin-left: 5.62rem;
+}
+
+a#men {
+    margin-left: 8.25rem;
+}
+
+header nav form {
+    margin-top: 2.42rem;
+    margin-left: 5rem;
+    display: flex; /* deixando o form flex para a lupa entrar no input */
+    align-items: center; /* alinhando oque está dentro do form no centro em x, y */
+    gap: 0.25rem; /* puxando a lupa um pouco para a esquerda com o gap */
+    background: white;
+}
+
+header nav input {
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    background: transparent;
+    padding: 0.5rem 0.5rem; /* dando um padding no placeholder para puxar mais pra direita */
+
+}
+
+::placeholder {
+    font: 500 0.8rem var(--tittle-font);
+}
+
+header nav form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    background: white;
+    border: none;
+}
+
+header nav form button img {
+    height: 1rem;
+}
+
+header nav a img.bag {
+    width: 1.7rem;
+}
+
+a img.bag {
+    margin-top: 2.90rem;
+    margin-left: 5.25rem;
+}
+
+/*******
+
+/*** FOOTER **************/
+
+footer {
+    height: 10.37rem;
+    overflow-y: hidden;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+footer nav a img {
+    width: 15.62rem;
+    height: 10.39rem;
+}
+
+footer nav a.text2 {
+    font: 700 1.12rem var(--tittle-font);
+    color: #000000;
+    margin-right: 4rem;
+}
+
+footer nav a#facebook {
+    margin-left: 4rem;
+}
+
+footer nav div.button2 button.explore {
+    font: 700 1.5rem var(--tittle-font);
+    color: white;
+    background-color: black;
+    border: none;
+    width: 25.25rem;
+    height: 10.60rem;
+}
+
+footer nav div.button2 {
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav div.button2 img {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+/****************/

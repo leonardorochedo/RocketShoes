@@ -238,4 +238,104 @@ footer nav div.button2 img {
     margin-left: 1rem;
 }
 
-/****************/
+/***** MEDIA QUERIES ***********/
+/* FHD */
+@media (min-width: 1920px) {
+
+header nav a img {
+    width: 4rem;
+    margin-left: 7rem;
+}
+
+a#men {
+    margin-left: 12rem;
+}
+
+header nav {
+    margin-top: 1.25rem;
+}
+
+header nav input {
+    width: 14rem;
+}
+
+header nav a.text {
+    margin-left: 10rem;
+    font: 700 1.5rem var(--tittle-font);
+}
+
+header nav form {
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+header nav a img.bag {
+    width: 2.25rem;
+    margin-top: 2.25rem;
+}
+
+header nav form button img {
+    height: 1.5rem;
+}
+
+div.price {
+    width: 20rem;
+    margin-left: 16rem;
+}
+
+div.price h1.tittle {
+    font: 700 4rem var(--tittle-font);
+}
+
+div.price p {
+    font: 600 1.25rem var(--tittle-font);
+}
+
+div.price h1.value {
+    font: 700 3rem var(--tittle-font);
+}
+
+div.price button {
+    width: 20.12rem;
+    height: 6rem;
+}
+
+div.images {
+    margin-left: 50rem;
+    width: auto;
+    height: 56rem;
+}
+
+div.images img.twot {
+    width: 36rem;
+    margin-left: 17rem;
+}
+
+div.images img.one {
+    width: 20rem;
+    margin-top: 41rem;
+    margin-left: 3rem;
+}
+
+div.images img.two {
+    width: 19rem;
+    margin-top: 40.5rem;
+    margin-left: 26rem;
+}
+
+div.images img.tre {
+    width: 19rem;
+    margin-top: 41.5rem;
+    margin-left: 48rem;
+}
+
+::-webkit-input-placeholder { /* Alterar placeholder input */
+    font-size: 1.10rem;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+}
